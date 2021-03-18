@@ -1,0 +1,51 @@
+1) Difference between HTTP1 and HTTP2
+  
+		HTTP1.1			-		HTTP1.2
+
+	1) It is 3 TCP connections		It is 1 TCP connection
+	
+	2)server push loading time is 		server push loading time is higher than HTTP1
+	littlbit slow compare with HTTP2
+
+	3)some modern browser not support	most of modern browser supports 
+
+	4)main diffrence it is using only	HTTP2 using bainary farming protocol
+	plain text format
+
+	5)HTTP1 using the text commands		it is using Binary commands (0 nad 1)
+
+2) difference between BrowserJS and NodeJS
+
+		
+			Browser JS					 node JS
+
+		
+		1)In browser is predefined global		node JS does not have predefined oject
+		object ,function and attributes	
+
+		2)Browser "Location" is predefined		it "location" is not have predefined object
+		object
+
+		3)it is not "require" predefined		node JS has "require" predefined object
+		object
+
+		4)Browser is have not require modeule 		in this node JS keep code inside thi module
+
+		5)browser have predefined "document"		Node JS have not require predefined "document"
+		object						object
+
+3)JSON server - fake server with post
+
+
+	
+Introducing JSON Server -fake server with post:
+
+
+Step 1: To set up the JSON Server run the following command: npm install -g json-server.
+
+Step 2: Create a db.json file with some data. { “posts”: [ ...
+
+Step 3: Start JSON Server. json-server --watch db.json --port 8000. 
+This runs a local server on port 8000, and watches the db.json file for any changes.
+	
+
